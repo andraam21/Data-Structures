@@ -1,0 +1,5 @@
+Incepem programul prin a citi fiecare element din graf, retinandu-l si creand lista de adiacenta pentru fiecare. Pentru a testa daca exista
+ciclu sau nu ne folosim de un dfs pentru a parcurge recursiv toti vecinii nodului respectiv, observand ulterior daca ne intoarcem intr-un punct
+deja vizitat. In ceea ce priveste functiile past() si future() pargurgem si de aceasta data recursiv vecinii anteriori sau de dupa marcandu-i 
+ca vizitati si returnand vectorul cu acestia. Pentru anticone() am facut intersectia multimilor aflate anterior, afisand lista cu nodurile ce
+raman nevizitate, iar pentru tips() am aflat care din noduri nu se afla in nicio lista de adiacenta, adica daca este ultimul element.
