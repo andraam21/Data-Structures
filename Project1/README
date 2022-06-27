@@ -1,0 +1,27 @@
+Pentru Cerinta 1:
+a)Se adauga locomotiva pe peron daca acesta exista
+b)Se elibereaza pe rand fiecare vagon, dupa statia
+c)Adaugam vagonul la finalul trenului, insa trebuie verificat daca exista 
+o locomotiva sau daca vagonul va fi primul (trebuie schimbat head-ul)
+d)Verificam toate vagoanele care au greutatea ceruta, iar in cazul in care
+acestea sunt la inceput mutam si head-ul listei
+e)Ne folosim de un pointer la inceputul si finalul secventei care trebuie 
+mutata si o integram pe peronul b la locul indicat(tot cu ajutorul unor 
+pointeri: unul inainte si unul dupa locul unde trebuie inserata secventa)
+Pentru Cerinta 2:
+a)Calculam pentru fiecare peron diferenta dintre puterea locomotivei si
+greutatea vagoanelor si aflam care este cel mai liber tren
+b)Pentru aceeasi diferenta testam daca este negativa
+c)Pentru aceeasi diferenta gasim cel mai mic rezultat
+d)Ne folosim de o matrice pentru a tine minte pe fiecare peron, incepand 
+cu un anumit vagon, suma numarului de vagoane cerut. Din aceasta matrice
+gasim valoarea maxima si salvam pozitia pentru a afla mai departe peronul
+si pozitia vagonului de la care incepe secventa
+Pentru Cerinta 3:
+a)Gasim cel mai greu vagon si il mutam pe prima pozitie pentru a gasi si
+head-ul listei, dupa care sortam pe rand toate vagoanele in functie de 
+greutatea acestora
+b)Gasim trenul supraincarcat si calculam care ar fi diferenta dintre
+puterea locomotivei si greutatea vagoanelor in cazul in care se
+scoate, pe rand, cate un vagon. Din aceste diferente o cautam pe cea mai
+mica si pozitiva 
